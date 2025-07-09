@@ -1,0 +1,55 @@
+/* src/components/StatsPage.css */
+
+.stats-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.stats-heading {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.loading-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.no-url-text {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+
+.url-card {
+  background: #f2f9ff;
+  border: 1px solid #d1eaff;
+  border-left: 6px solid #007bff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.url-card a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.url-card a:hover {
+  text-decoration: underline;
+}
+
+.url-label {
+  font-weight: bold;
+  color: #333;
+  display: inline-block;
+  margin-right: 6px;
+}
